@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Joseph Hobbs</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+            integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+            crossorigin="anonymous">
+        <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" id="name-header" href="#">Joseph Hobbs</a>
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="index.html">About
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link active" href="#" id="contact">Contact</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Social
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right animated zoomInRight" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://github.com/schosev" target="_blank">
+                                <img src="assets/images/github.png" alt="github icon" class="social" />
+                                Github
+                            </a>
+                            <a class="dropdown-item" href="https://www.linkedin.com/in/joseph-hobbs-912861156/" target="_blank">
+                                <img src="assets/images/linkedin.png" alt="linkedin icon" class="social" />
+                                Linked In
+                            </a>
+                            <a class="dropdown-item" href="https://stackoverflow.com/users/9186098/schosev" target="_blank">
+                                <img src="assets/images/stackoverflow.png" alt="stackoverflow icon" class="social" />
+                                Stackoverflow
+                            </a>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid main-div">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 col-sm-12 main-col">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>About Me</h2>
+                        </div>
+                        <div class="card-body">
+                            <section class="img-text">
+                                <img class="img-responsive" id="profile-image" src="assets/images/Joe-Profile1.JPG" alt="profile picture" />
+        
+                                <p>
+                                    I was born and raised in Odessa, Texas.  I moved to Kansas City with my parents
+                                    after I graduated from high school.  I have two sisters and a brother and they all 
+                                    still live in Texas.  Most of my friends and my two sisters now live in the Dallas
+                                    area so I generally visit there at least once a year.
+                                </p>
+                                <br />
+                                <p>
+                                    Now I am married and my wife grew up in Blue Springs.  We have one son and he is 
+                                    4 years old.  When I get the chance, I enjoy mountain biking or going
+                                    for a hike.
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="text-center footer-text">&copy; Copyright 2018 Joseph Hobbs
+                    <div class="social-icons">
+                    <a href="https://github.com/schosev" target="_blank">
+                        <img src="assets/images/github.png" alt="github icon" class="social" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/joseph-hobbs-912861156/" target="_blank">
+                        <img src="assets/images/linkedin.png" alt="linkedin icon" class="social" />
+                    </a>
+                    <a href="https://stackoverflow.com/users/9186098/schosev" target="_blank">
+                        <img src="assets/images/stackoverflow.png" alt="stackoverflow icon" class="social" />
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Modal -->
+    <div class="modal fade animated zoomIn" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Contact Me</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="name-box" class="labelClass">Name</label>
+                                    <br />
+                                    <input type="text" class="form-control" name="name-box" id=name-box placeholder="John Smith" />
+                                    <br />
+                                </div>
+                                <div class="form-group">
+                                    <label for="email-box" class="labelClass">Email</label>
+                                    <br />
+                                    <input type="email" class="form-control" name="email-box" id="email-box" placeholder="example@gmail.com" />
+                                    <br />
+                                </div>
+                                <div class="form-group">
+                                    <label for="message-box" class="labelClass">Message</label>
+                                    <br />
+                                    <textarea class="form-control" name="message-box" id="message-box"></textarea>
+                                    <br />
+                                </div>
+                                    <input type="button" class="btn btn-default btn-lg" id="submit-button" data-dismiss="modal" value="Submit" />
+                                    <br />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $("#contact").on("click", function(){
+                $('#contactModal').modal("show");
+            })
+
+            // // Add slideDown animation to Bootstrap dropdown when expanding.
+            // $('.dropdown').on('show.bs.dropdown', function() {
+            //     $(this).find('.dropdown-menu').addClass('animated zoomInRight');
+            // });
+
+            // // Add slideUp animation to Bootstrap dropdown when collapsing.
+            // $('.dropdown').on('hide.bs.dropdown', function(e){
+            //     e.preventDefault();
+            //     $(this).find('.dropdown-menu.animated').first().addClass('zoomOutRight').removeClass('zoomInRight');
+            //     $(this).one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend webkitAnimationEnd oanimationend msAnimationEnd animationend', function() {
+            //         $(this).trigger('hidden.bs.dropdown');
+            //     });
+            // });
+
+            // $('.dropdown').on('hidden.bs.dropdown', function(e){
+            //     $(this).removeClass('open');
+            // });
+        </script>
+    </body>
+</html>

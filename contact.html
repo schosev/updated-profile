@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Basic Bio - Bootstrap</title>
+            <!---<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        </head>
+        
+        <body>
+            <nav class="navbar navbar-default">
+                <div class="container header_ht">
+                    <div class="navbar-header">
+                        <p id="name-header">Joseph Hobbs</p>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="inline-list" id="li-about"><a href="index.html">About</a></li>
+                        <li class="inline-list" id="li-port"><a href="portfolio.html">Portfolio</a></li>
+                        <li class="inline-list" id="li-contact"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav> 
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6 main-col">
+                        <h2 class="page-header head-2">Contact</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="name-box" class="labelClass">Name</label>
+                                <br />
+                                <input type="text" class="form-control input-lg" name="name-box" id=name-box placeholder="John Smith" />
+                                <br />
+                            </div>
+                            <div class="form-group">
+                                <label for="email-box" class="labelClass">Email</label>
+                                <br />
+                                <input type="email" class="form-control input-lg" name="email-box" id="email-box" placeholder="example@gmail.com" />
+                                <br />
+                            </div>
+                            <div class="form-group">
+                                <label for="message-box" class="labelClass">Message</label>
+                                <br />
+                                <textarea class="form-control" name="message-box" id="message-box"></textarea>
+                                <br />
+                            </div>
+                                <input type="button" class="btn btn-default btn-lg" id="submit-button" value="Submit" />
+                                <br />
+                        </form>
+                    </div>
+
+                    <div class="col-md-1"></div>
+
+                    <div class="col-md-3 side-col">
+                        <h3 class="page-header text-center head-3">Connect with Me</h3>
+                        <div class="side-images">
+                            <a href="https://github.com/schosev" target="_blank">
+                                <img src="assets/images/github_square_black.png" alt="github icon" width="64" height="64" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/joseph-hobbs-912861156/" target="_blank">
+                                <img src="assets/images/linkedin-icon.png" alt="linkedin icon" width="64" height="64" />
+                            </a>
+                            <a href="https://stackoverflow.com/users/9186098/schosev" target="_blank">
+                                <img src="assets/images/stackoverflow-icon.png" alt="stackoverflow icon" width="60" height="60" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-1"></div>
+            
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <div class="container-fluid footer">
+                        &copy; Copyright 2018 Joseph Hobbs
+                </div>
+            </div>
+        </body>
+</html>
